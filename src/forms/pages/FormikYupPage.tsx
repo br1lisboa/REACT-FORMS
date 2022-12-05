@@ -11,7 +11,7 @@ import '../styles/styles.css'
 
 export const FormikYouPage = () => {
 
-    const { handleChange, values, handleSubmit, errors, touched, handleBlur, getFieldProps } = useFormik({
+    const { handleSubmit, errors, touched, getFieldProps } = useFormik({
         initialValues: {
             firstName: '',
             lastName: '',
